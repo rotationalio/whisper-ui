@@ -1,4 +1,4 @@
-import Footer from "components/Footer";
+// import Footer from "components/Footer";
 import Modal from "components/Modal";
 import { ModalProvider } from "contexts/modalContext";
 import { BrowserRouter as Router } from "react-router-dom";
@@ -13,7 +13,6 @@ const App: React.FC = () => {
 					<AppRouter />
 					<Modal />
 				</ModalProvider>
-				<Footer />
 			</div>
 		</Router>
 	);
